@@ -2,7 +2,7 @@
 - hosts: localhost
   connection: local
   vars:
-    ssh_key: foobar
+    ssh_key: coreos
     k8s_version: 1.4.0
     k8s_num_nodes: 2
     k8s_security_group_name: k8s
